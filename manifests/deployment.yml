@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: az220 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: az220
+  template:
+    metadata:
+      labels:
+        app: az220 
+    spec:
+      containers:
+        - name: az220 
+          image: acraz220nxt.azurecr.io/az220
+          ports:
+          - containerPort: 80
