@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  az220_api:
+    image: ${DOCKER_REGISTRY-}az220api
+    build:
+      context: .
+      dockerfile: ./Dockerfile

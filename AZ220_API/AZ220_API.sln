@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AZ220_API", "AZ220_API.csproj", "{64E4A952-24B9-41BE-97AB-71BC349A6341}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D1918069-DE02-4590-9EEC-785A44CE1507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{64E4A952-24B9-41BE-97AB-71BC349A6341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E4A952-24B9-41BE-97AB-71BC349A6341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E4A952-24B9-41BE-97AB-71BC349A6341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1918069-DE02-4590-9EEC-785A44CE1507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1918069-DE02-4590-9EEC-785A44CE1507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1918069-DE02-4590-9EEC-785A44CE1507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1918069-DE02-4590-9EEC-785A44CE1507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
